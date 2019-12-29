@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
         try (AnnotationConfigApplicationContext context =
             new AnnotationConfigApplicationContext(ProjectConfig.class)) {
-            context.getBean(Cat.class).sayMeow();
+            context.getBean(Cat.class).sayMeow(); // Comment this to see the Bean is not created with the context
         }
     }
 }

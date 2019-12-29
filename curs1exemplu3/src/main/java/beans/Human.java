@@ -10,7 +10,6 @@ public class Human {
         return dog;
     }
 
-
     public void setDog(Dog dog) {
         this.dog = dog;
     }

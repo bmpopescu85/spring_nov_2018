@@ -17,6 +17,7 @@ public class ProjectConfig {
     }
 
     @Bean
+    // @Autowired - no need from version 3.2
     public Human h1(Dog dog1) {
         Human h1 = new Human();
         h1.setDog(dog1);

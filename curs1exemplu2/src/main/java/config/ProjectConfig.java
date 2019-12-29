@@ -27,7 +27,7 @@ public class ProjectConfig {
     public Human h1() {
         Human h1 = new Human();
         h1.setDog(dog1());
-        // if deja exista un dog in context - else creaza
+        // if already exists a Dog in context get it from there, else create it
         return h1;
     }
 }

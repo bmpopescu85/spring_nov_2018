@@ -11,8 +11,8 @@ public class Main {
         try (AnnotationConfigApplicationContext context =
                 new AnnotationConfigApplicationContext(ProjectConfig.class)) {
 
-//            Dog dog = context.getBean("dog1", Dog.class); // by type
-//            System.out.println(dog);
+            Dog dog = context.getBean("dog1", Dog.class); // by type
+            System.out.println(dog);
 
             Human h1 = context.getBean(Human.class);
             System.out.println(h1);

@@ -24,6 +24,6 @@ public class HelloService {
     }
 
     public void test() {
-
+        System.out.println("Test me!");
     }
 }
