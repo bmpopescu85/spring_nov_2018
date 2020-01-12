@@ -19,7 +19,7 @@ public class HelloAspect {
         try {
             System.out.println("Before");
             for (Object o : pjp.getArgs()) {
-                System.out.println(o);
+                System.out.println("Parameter: " + o);
             }
             Object o = pjp.proceed(new Object[]{"Mary"});
             System.out.println("After");
