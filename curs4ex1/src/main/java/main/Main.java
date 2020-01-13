@@ -10,7 +10,7 @@ public class Main {
         try (AnnotationConfigApplicationContext context =
             new AnnotationConfigApplicationContext(ProjectConfig.class)) {
             context.getBean(ProductService.class).addTenProducts();
-        }catch (Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }

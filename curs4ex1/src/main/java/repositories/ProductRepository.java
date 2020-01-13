@@ -8,14 +8,15 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 @Repository
+@Transactional
 public class ProductRepository {
 
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
-    @Transactional(propagation = Propagation.REQUIRES_NEW)
+//    @Transactional(propagation = Propagation.REQUIRES_NEW)
     public void addProduct(Product p) {
-        String  sql = "INSERT INTO product VALUES (NULL, ?, ?)";
-        jdbcTemplate.update(sql, p.getName(), p.getPrice());
+        String sql = "INSERT INTO product VALUES (NULL, ?, ?)";
+        jdbcTemplate.update(sql, p.getName(), p.getPrice()); // replacement for executeUpdate from jdbc
     }
 }
