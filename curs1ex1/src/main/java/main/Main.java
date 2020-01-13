@@ -14,7 +14,7 @@ public class Main {
     // - AnnotationConfigApplicationContext
     public static void main(String[] args) {
         ApplicationContext context =
-                new FileSystemXmlApplicationContext("H:\\BitbucketRepos\\spring_nov_2018\\curs1exemplu1\\src\\main\\resources\\appContext.xml");
+                new FileSystemXmlApplicationContext("H:\\BitbucketRepos\\spring_nov_2018\\curs1ex1\\src\\main\\resources\\appContext.xml");
 
         // singleton vs prototype
         Cat cat1 = context.getBean(Cat.class); // get bean by type
