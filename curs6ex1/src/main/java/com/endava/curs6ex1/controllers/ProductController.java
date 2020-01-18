@@ -1,7 +1,7 @@
-package com.endava.springlesson6e1.controllers;
+package com.endava.curs6ex1.controllers;
 
-import com.endava.springlesson6e1.entities.Product;
-import com.endava.springlesson6e1.services.ProductService;
+import com.endava.curs6ex1.entities.Product;
+import com.endava.curs6ex1.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

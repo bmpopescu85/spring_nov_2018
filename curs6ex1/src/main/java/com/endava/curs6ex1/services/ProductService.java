@@ -1,7 +1,7 @@
-package com.endava.springlesson6e1.services;
+package com.endava.curs6ex1.services;
 
-import com.endava.springlesson6e1.entities.Product;
-import com.endava.springlesson6e1.repositories.ProductRepository;
+import com.endava.curs6ex1.entities.Product;
+import com.endava.curs6ex1.repositories.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

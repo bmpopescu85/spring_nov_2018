@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.endava</groupId>
-	<artifactId>spring-lesson6-e1</artifactId>
+	<artifactId>curs6ex1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-lesson6-e1</name>
+	<name>curs6ex1</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

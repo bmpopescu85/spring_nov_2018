@@ -1,4 +1,4 @@
-package com.endava.springlesson6e1.entities;
+package com.endava.curs6ex1.entities;
 
 import javax.persistence.*;
 

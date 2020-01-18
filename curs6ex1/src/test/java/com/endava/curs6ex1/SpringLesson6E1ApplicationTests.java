@@ -1,4 +1,4 @@
-package com.endava.springlesson6e1;
+package com.endava.curs6ex1;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

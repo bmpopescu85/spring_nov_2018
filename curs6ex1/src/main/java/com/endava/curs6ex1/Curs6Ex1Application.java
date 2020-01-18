@@ -1,13 +1,13 @@
-package com.endava.springlesson6e1;
+package com.endava.curs6ex1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringLesson6E1Application {
+public class Curs6Ex1Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringLesson6E1Application.class, args);
+		SpringApplication.run(Curs6Ex1Application.class, args);
 	}
 
 }
