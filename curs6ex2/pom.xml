@@ -8,10 +8,10 @@
 		<version>2.1.1.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>spring-lesson6-e2</groupId>
-	<artifactId>demo</artifactId>
+	<groupId>com.endava</groupId>
+	<artifactId>curs6ex2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
+	<name>curs6ex2</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

@@ -1,4 +1,4 @@
-package springlesson6e2.demo.entities;
+package curs6ex2.entities;
 
 import javax.persistence.*;
 
@@ -11,6 +11,7 @@ public class Transaction {
 
     private double amount;
 
+    // more transactions to a single card
     @ManyToOne
     private Card card;
 

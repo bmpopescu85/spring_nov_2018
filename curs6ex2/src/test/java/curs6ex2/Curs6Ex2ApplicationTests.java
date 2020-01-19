@@ -1,4 +1,4 @@
-package springlesson6e2.demo;
+package curs6ex2;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class DemoApplicationTests {
+public class Curs6Ex2ApplicationTests {
 
 	@Test
 	public void contextLoads() {

@@ -1,6 +1,4 @@
-package springlesson6e2.demo.entities;
-
-import org.springframework.web.bind.annotation.GetMapping;
+package curs6ex2.entities;
 
 import javax.persistence.*;
 import java.util.List;
@@ -14,6 +12,7 @@ public class Card {
 
     private String pan;
 
+    // a card has more transactions
     @OneToMany(mappedBy = "card", cascade = CascadeType.PERSIST)
     private List<Transaction> transactions;
 

@@ -1,7 +1,7 @@
-package springlesson6e2.demo.repositories;
+package curs6ex2.repositories;
 
+import curs6ex2.entities.Card;
 import org.springframework.data.jpa.repository.JpaRepository;
-import springlesson6e2.demo.entities.Card;
 
 public interface CardRepository extends JpaRepository<Card, Long> {
 }
